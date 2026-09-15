@@ -1,0 +1,6 @@
+Project docs summary:
+- Project name: Exam Radar, AI exam review workspace for university courses.
+- Core loop: upload syllabus/lectures/tutorials/assignments/past papers/answers -> course knowledge map -> Question DNA/exam patterns -> explainable priority score -> adaptive transformed practice -> feedback/mastery -> next question.
+- Main features: multi-course workspace, PDF/DOCX/PPTX/TXT/MD upload with source citations; Exam Radar readiness/priority; Knowledge Map; Exam DNA; adaptive practice Generator/Critic/Similarity/Verifier; Revision Packs (notes/formulas/flashcards) export MD/DOCX/PDF; read-only course sharing/comments; Chinese UI; hybrid local Ollama + GPT-5.
+- Visual direction: warm ivory canvas #FAF9F6, graphite text, indigo primary, mint success, coral critical, amber important, thin borders, 16px corners, subtle shadows, Swiss editorial grid, calm international SaaS; avoid neon gradients/marketing poster feel.
+- Sample demo metrics: Readiness 78%; KNN priority 91; Logistic Regression priority 94; Precision 92%, Recall 58%, F1 31%; type distribution Explain 27%, Compare 24%, Calculation 21%, Scenario 18%, Definition 10%.

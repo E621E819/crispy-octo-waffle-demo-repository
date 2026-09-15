@@ -1,0 +1,20 @@
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'C:/Users/34618/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs = require('node:fs');
+(async()=>{
+  const browser=await chromium.launch({headless:true,channel:'msedge'});
+  const context=await browser.newContext({viewport:{width:1440,height:1000}});
+  const page=await context.newPage();
+  const errors=[]; page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('http://127.0.0.1:5173/');
+  await page.getByRole('button',{name:'New study session',exact:false}).waitFor();
+  await page.screenshot({path:'output/desktop-initial.png',fullPage:true});
+  await page.getByRole('button',{name:'Question DNA',exact:true}).click();
+  await page.getByRole('button',{name:'Analyze past papers',exact:true}).click();
+  await page.waitForTimeout(350);
+  await page.screenshot({path:'output/desktop-exam-dna.png',fullPage:true});
+  const dnaText=await page.locator('body').innerText();
+  console.log(JSON.stringify({title:await page.title(),errors,text:await page.locator('body').innerText()},null,2));
+  console.log('DNA_VIEW_HAS_PATTERN', /identified questions|Analyze past papers|question DNA/i.test(dnaText));
+  await context.storageState({path:'output/qa-browser-session.json'});
+  await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

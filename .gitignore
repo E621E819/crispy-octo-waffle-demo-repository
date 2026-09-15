@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+data/
+*.db
+*.db-*
+output/test-artifacts/
+frontend/test-results/
+frontend/playwright-report/
+output/qa-browser-session.json
+
+.vercel
+.env*

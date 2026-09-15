@@ -1,0 +1,13 @@
+Use case: ui-mockup
+Asset type: high-fidelity product design concept board for an international collaborative web app
+Primary request: Create a polished desktop web application UI for “Exam Radar”, an AI exam intelligence and collaborative study workspace. Show one cohesive dashboard screen with a left navigation rail, course selector, top search and workspace controls, and a central knowledge map / exam readiness dashboard. Include realistic but concise English UI labels with a few Chinese bilingual labels: “Exam Radar”, “Course Knowledge Map”, “Exam DNA”, “Priority Score”, “Practice together”, “Upload materials”, “Study room”. Show several diverse student collaborator avatars and live presence indicators, a progress ring, priority cards, a question transformation preview, and a clean node-based knowledge map. The UI should clearly communicate that multiple students can share a course workspace, upload teaching plans and past papers, generate practice questions, and learn together.
+Scene/backdrop: desktop browser viewport, no device frame, professional SaaS workspace
+Subject: information-dense but calm education productivity dashboard
+Style/medium: premium international SaaS product design, inspired by Linear, Notion, Figma, and modern collaborative learning platforms; high-fidelity UI mockup, crisp typography, subtle glass surfaces, strong grid, excellent hierarchy
+Composition/framing: 16:10 wide desktop screen, full UI visible, sidebar on left, knowledge map in center, insight cards on right, enough whitespace, realistic responsive layout
+Lighting/mood: bright neutral background, focused and optimistic, subtle indigo and mint accents
+Color palette: warm off-white canvas, charcoal text, indigo primary, mint success, amber warning, coral emphasis; accessible contrast
+Materials/textures: flat UI surfaces, fine borders, soft shadows, no 3D chrome
+Text (verbatim): “Exam Radar”, “Course Knowledge Map”, “Exam DNA”, “Priority Score”, “Practice together”, “Upload materials”, “Study room”, “Data Structures”, “Next best question”, “Weakness detected: Recall”, “72% exam readiness”
+Constraints: text must be legible and spelled correctly; coherent app UI, not a marketing poster; no logos or trademarks; no watermark; show collaborative presence without clutter
+Avoid: dark cyberpunk style, generic landing page, phone mockups, excessive gradients, unreadable placeholder text, random charts unrelated to exam preparation
