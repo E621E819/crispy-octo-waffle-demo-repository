@@ -15,3 +15,6 @@ output/qa-browser-session.json
 
 .vercel
 .env*
+
+output/.session-secret
+*.tsbuildinfo
